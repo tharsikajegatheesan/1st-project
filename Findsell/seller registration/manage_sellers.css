@@ -1,0 +1,160 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #28a745;
+    color: rgb(47, 174, 146);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Table styling for seller management */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #a1d317;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Action links styling */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+a:visited {
+    color: #5a5a5a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+.container{
+    padding: 0px 0px;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 160px;
+    height:160px;
+    padding: 50px 50px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 50px;
+    text-align: auto;
+    
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 140px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    transition: .4s;
+}
+.active{
+    background-color: #0f7c00;
+    color: #ffffff;
+    border-radius: 2px;
+}

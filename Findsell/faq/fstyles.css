@@ -1,0 +1,120 @@
+.title
+{
+    padding-top: 60px;
+    font-size:20px;
+    text-align:center;
+}
+.para
+{
+    padding:5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #bdd5e7;
+    min-height: 120vh;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-position: right top;
+}
+
+.search-line 
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-part 
+{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.search-part h1 
+{
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+.search-box input 
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #add8;
+    border-radius: 5px;
+    margin-right: 200px;
+}
+
+
+.faq-part h2
+{
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+li 
+{
+    margin-bottom: 20px;
+}
+
+li h3 
+{
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding-left: 150px;
+}
+
+li p 
+{
+    font-size: 16px;
+    padding-left: 160px;
+}
+
+a 
+{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+.custom-btn
+{
+    padding-left:7px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    font-size: 16px;
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+    align-items: center; 
+}

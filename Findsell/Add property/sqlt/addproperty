@@ -1,0 +1,10 @@
+CREATE TABLE addproperty (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(255) NOT NULL,
+    price varchar(50) NOT NULL,
+    ltype VARCHAR(255) NOT NULL,  
+    location VARCHAR(255) NOT NULL,
+    description TEXT NOT NULL,
+    ownerName VARCHAR(255) NOT NULL,
+    phoneNo VARCHAR(20) NOT NULL 
+);
